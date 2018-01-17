@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Jan-2018, 17:40:37
+    Author     : ASUS
+*/
+*{
+  -fx-primary:#2A2E37;
+  -fx-secondary:#FFFF8D;
+  -fx-primarytext:#B2B2B2;
+  
+}
+
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.button{
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: -fx-primarytext;
+}
+
+.side-button{
+    -fx-border-color: -fx-secondary;
+}
+
+.custom-buton{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+.text{
+    -fx-fill: -fx-secondary;
+}
+
+.menu-bar{
+    -fx-background-color: -fx-primary;
+}
+
+.tab{
+    -fx-background-color: -fx-primary;
+    -fx-pref-width: 368px;
+    -fx-pref-height: 50px;
+}
+
+.tab-header-background{
+    -fx-background-color: -fx-primary;
+}
+
+.context-menu{
+    -fx-background-color: derive(-fx-primary,20%);
+}
+
+.menu:hover{
+     -fx-background-color: derive(-fx-primary,50%);
+}
+
+.menu:showing{
+     -fx-background-color: derive(-fx-primary,50%);
+}
+
+.menu-item:hover{
+     -fx-background-color: derive(-fx-primary,50%);
+}
+
+.menu-item:focused{
+     -fx-background-color: derive(-fx-primary,50%);
+}
